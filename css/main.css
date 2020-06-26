@@ -347,7 +347,7 @@ padding: 10px;
 
 
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
   .content {
     width: 90%;
     margin-right: 0;
