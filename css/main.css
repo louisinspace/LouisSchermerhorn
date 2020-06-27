@@ -27,12 +27,24 @@ font-weight: bold;
 font-size: 1.8em;
 }
 
+.content h5 a:link {
+color: #fd5c34;
+text-decoration: none;
+}
+
+.content h5 a:active {
+color: #fd5c34;
+text-decoration: none;
+}
+
 .content h5 a:visited {
 color: #fd5c34;
+text-decoration: none;
 }
 
 .content h5 a:hover {
 color: #78d5cb;
+text-decoration: none;
 }
 
 .work_block_right {
@@ -351,7 +363,7 @@ padding: 10px;
   .content {
     width: 90%;
     margin-right: 0;
-    margin-left: 9px;
+    margin-left: 0px;
     padding-top: 20px;
 /*    margin-left: -200px; */
     position: absolute;
