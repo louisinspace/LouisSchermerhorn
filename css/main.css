@@ -1,13 +1,9 @@
 
 
 body {
-  font-family: Arial;
+  font-family: Tahoma, Geneva, sans-serif;
 font-style: normal;
 color: #183B4A;
-}
-
-.nav h1 {
-color: 	#78d5cb;
 }
 
 .content {
@@ -19,6 +15,26 @@ color: 	#78d5cb;
   width: 600px;
   padding:15px;
   text-align: left;
+  word-spacing: .1em;
+  line-height: 1.7em;
+}
+
+.nav {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 215px;
+  width:350px;
+  padding:0 20px;
+  margin-left: 60px;
+  line-height: 1px;
+}
+
+.navlist {
+position: relative;
+font-size: 10pt;
+word-spacing: 8px;
+line-height: 26pt;
 }
 
 .content h5 {
@@ -118,22 +134,13 @@ width: 250px;
 padding: 0px 10px 10px 0px;
 }
 
-
-
-.navlist {
-text-transform: lowercase;
-position: relative;
-font-size: 13pt;
-word-spacing: 8px;
-line-height: 26pt;
-}
-
 .navlist a {
-color: #6d7173;
+color: #9ea2a3;
 text-decoration: none;
 }
 
 .navlist a:hover {
+color: #6d7173;
 text-decoration: underline;
 }
 
@@ -399,14 +406,7 @@ font-size:0.8em;
 padding: 4em 0 8em 0;
 }
 
-.nav {
-  position: absolute;
-  top: 215px;
-  width:350px;
-  padding:0 20px;
-  margin-left: 60px;
-  line-height: 1px;
-}
+
 
 
 @media (max-width: 500px) {
@@ -434,7 +434,7 @@ padding: 4em 0 8em 0;
   margin-bottom: -4px;
   }
   
-  .nav h1 {
+  .sig {
   display: none;
   }
   
@@ -442,10 +442,6 @@ padding: 4em 0 8em 0;
   padding-top: 3%;
   width: 60%;
   }
-  
-  .podcast .podimg{
-  display: none;
-}
   
   .blogimage {
   width: 90%;
