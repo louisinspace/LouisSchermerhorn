@@ -9,7 +9,7 @@ color: #183B4A;
 .content {
   line-height: 1.4em;
   position: absolute;
-  margin-left: 480px;
+  margin-left: 530px;
   top: 120px;
   font-size: 10pt;
   width: 600px;
@@ -24,7 +24,7 @@ color: #183B4A;
   text-transform: uppercase;
   position: absolute;
   top: 215px;
-  width:350px;
+  width:355px;
   padding:0 20px;
   margin-left: 60px;
   line-height: 1px;
@@ -33,7 +33,7 @@ color: #183B4A;
 .navlist {
 position: relative;
 font-size: 10pt;
-word-spacing: 8px;
+word-spacing: 6px;
 line-height: 26pt;
 }
 
@@ -104,7 +104,7 @@ padding: 0px 0px 0px 0px;
 .content_block_right {
 position: relative;
 margin: 0 0 70px 0;
-left: 120px;
+left: 100px;
 width: 500px;
 text-align: left;
 }
@@ -112,7 +112,7 @@ text-align: left;
 .content_block_right img {
 position: absolute;
 right: 110%;
-width: 300px;
+width: 250px;
 padding: 0 0 0 0;
 border-radius: 50%;
 }
@@ -155,7 +155,7 @@ text-decoration: none;
 }
 
 .navlist a:hover {
-color: #6d7173;
+color: #fd5c34;
 text-decoration: underline;
 }
 
