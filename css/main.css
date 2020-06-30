@@ -88,18 +88,18 @@ padding: 0px 0px 0px 0px;
 
 .content_block_right {
 position: relative;
-margin: 150px 0 200px 0;
+margin: 0 0 70px 0;
 left: 120px;
 width: 500px;
-text-align: center;
+text-align: left;
 }
 
 .content_block_right img {
 position: absolute;
-right: 105%;
-top: -7%;
-width: 530px;
-padding: 0px 10px 10px 0px;
+right: 110%;
+width: 300px;
+padding: 0 0 0 0;
+border-radius: 50%;
 }
 
 .content_block_left {
@@ -439,7 +439,7 @@ padding: 4em 0 8em 0;
   }
   
   .nav img {
-  padding-top: 3%;
+  padding-top: 8%;
   width: 60%;
   }
   
@@ -513,6 +513,10 @@ left: 22%;
 top: 0;
 width: 60%;
 padding: 0px 0px 0px 0px;
+}
+
+.page_break {
+display: none;
 }
 
 }
