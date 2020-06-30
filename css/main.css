@@ -63,6 +63,21 @@ color: #78d5cb;
 text-decoration: none;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .work_block_right {
 position: relative;
 margin: 100px 0px 200px 0px;
@@ -223,6 +238,8 @@ height: 25px;
 .td_date {
 font-size: .8em;
 font-style: italic;
+text-align: right;
+padding-right: 8px;
 }
 
 .td_tag_games {
@@ -230,6 +247,7 @@ text-align: center;
 font-size: .8em;
 background: #cadde0;
 color: white;
+width: 65px;
 }
 
 .td_tag_web {
@@ -237,6 +255,7 @@ text-align: center;
 font-size: .8em;
 background: #dbccb6;
 color: white;
+width: 65px;
 }
 
 .td_tag_creative {
@@ -244,6 +263,7 @@ text-align: center;
 font-size: .8em;
 background: #8bb095;
 color: white;
+width: 65px;
 }
 
 .tag_creative {
@@ -266,6 +286,14 @@ color: white;
 
 .tag_creative a:visited {
 color: white;
+}
+
+.subblog_header {
+color:white;
+width:100px;
+height:1.4em;
+padding-top:.3em;
+text-align:center;
 }
 
 .tag_web {
@@ -406,6 +434,22 @@ font-size:0.8em;
 padding: 4em 0 8em 0;
 }
 
+.previous_note {
+float: left;
+text-align:left;
+text-transform:uppercase;
+font-size:0.8em;
+width: 180px;
+}
+
+.next_note {
+float: right;
+text-align:right;
+text-transform:uppercase;
+font-size:0.8em;
+width: 180px;
+}
+
 
 
 
@@ -451,6 +495,43 @@ padding: 4em 0 8em 0;
   .podcast .podimgmob{
   display: block;
 }
+
+.table_subblog {
+font-size: 10pt;
+}
+
+.table_subblog  td {
+  border-bottom: 1px solid #ddd;
+}
+
+.subblog_header {
+width:130px;
+}
+
+.td_date {
+width:100px;
+text-align: right;
+padding-right: 8px;
+}
+
+.td_tag_games {
+width: 70px;
+}
+
+.td_tag_web {
+text-align: center;
+font-size: .8em;
+background: #dbccb6;
+color: white;
+}
+
+.td_tag_creative {
+text-align: center;
+font-size: .8em;
+background: #8bb095;
+color: white;
+}
+
   .table_subblog h3 {
   font-size: 12pt;
 }
@@ -513,6 +594,20 @@ left: 22%;
 top: 0;
 width: 60%;
 padding: 0px 0px 0px 0px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .page_break {
