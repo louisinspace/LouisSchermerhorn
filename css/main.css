@@ -80,11 +80,68 @@ text-decoration: none;
 
 .work_block_right {
 position: relative;
-margin: 100px 0px 200px 0px;
-left: 60px;
+margin: 0px 0px 0px 0px;
+left: 0px;
 width: 500px;
 text-align: left;
 }
+
+/* Nested list CSS */
+
+/* Remove default bullets */
+ul {
+  list-style-type: none;
+}
+
+/* Remove margins and padding from the parent ul */
+.my_UL {
+  margin: 20px;
+  padding: 0;
+}
+
+/* Style the caret/arrow */
+.caret {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection */
+}
+
+/* Create the caret/arrow with a unicode, and style it */
+.caret::before {
+  content: "\25B6";
+  color: black;
+  display: inline-block;
+  margin-right: 6px;
+}
+
+/* Rotate the caret/arrow icon when clicked on (using JavaScript) */
+.caret-down::before {
+  transform: rotate(90deg);
+}
+
+/* Hide the nested list */
+.nested {
+  display: none;
+}
+
+/* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
+.active {
+  display: block;
+}
+
+.nested_images {
+position: absolute;
+top: 140px;
+left: -270px;
+width: 250px;
+}
+
+.nested_images img {
+padding-top: 0px;
+padding-bottom: 15px;
+width: 250px;
+}
+
+/* End of nested list CSS */
 
 .work_block_right h5 {
 margin-bottom: .5em;
