@@ -128,16 +128,11 @@ ul {
   display: block;
 }
 
-.nested_images {
+.nested img {
+display: none;
 position: absolute;
-top: 140px;
+top: 400px;
 left: -270px;
-width: 250px;
-}
-
-.nested_images img {
-padding-top: 0px;
-padding-bottom: 15px;
 width: 250px;
 }
 
