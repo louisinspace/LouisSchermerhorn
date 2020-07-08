@@ -129,10 +129,8 @@ ul {
 }
 
 .nested img {
-display: none;
 position: absolute;
-top: 400px;
-left: -270px;
+left: -300px;
 width: 250px;
 }
 
